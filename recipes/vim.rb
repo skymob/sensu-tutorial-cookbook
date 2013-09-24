@@ -1,3 +1,7 @@
+#
+# Cookbook Name:: sensu-tutorial
+# Recipe:: vim 
+#
 
 yum_package "vim" 
 
