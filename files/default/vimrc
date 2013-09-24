@@ -1,0 +1,6 @@
+syntax on
+set expandtab
+set tabstop=2
+set sw=2
+set sts=2
+autocmd BufNewFile,BufRead *.json set ft=javascript
