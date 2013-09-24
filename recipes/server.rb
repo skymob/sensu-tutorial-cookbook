@@ -7,7 +7,6 @@
 include_recipe "monitor::master"
 include_recipe "monitor::redis"
 include_recipe "monitor::rabbitmq"
-include_recipe "sensu_files"
 
 cookbook_file "/etc/sensu/handlers/mailer.rb" do
   source "handlers/mailer.rb"
